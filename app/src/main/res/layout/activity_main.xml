@@ -37,7 +37,6 @@
         android:layout_marginBottom="4dp"
         android:ems="10"
         android:hint="@string/name"
-        android:inputType="phone"
         android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/editTextPhone"
         app:layout_constraintEnd_toStartOf="@+id/button"
@@ -60,13 +59,13 @@
         android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="@string/number"
-        android:inputType="phone"
         android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button"
         app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:inputType="phone"
             android:id="@+id/number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
